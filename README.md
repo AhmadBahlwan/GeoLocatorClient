@@ -1,27 +1,82 @@
-# GeolocationApp
+# Geo Locator Client App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+This project is an Angular application that allows users to view and send email with geo location details.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
 
-## Build
+Before you begin, ensure you have the following prerequisites installed on your machine:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- [Node.js](https://nodejs.org/)   (V 12.11.0)
+- [Npm](https://nodejs.org/)   (V 6.11.3)
+- [Angular CLI](https://angular.io/cli)  (V 9.1.0)
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository:
 
-## Running end-to-end tests
+   ```bash
+   https://github.com/AhmadBahlwan/GeoLocatorClient.git
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+2. Navigate to the project directory:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+   ```bash
+   cd geolocation-app
+
+3. Install dependencies:
+   ```bash
+   npm install
+
+4. Start the development server:
+   ```bash
+   ng serve
+
+
+## Usage
+
+- **Submit address and email details:**
+  - Open your browser and go to `http://localhost:4200/` and submit the address and email 
+
+## Features
+
+- **Loading Spinner:**
+  - A loading spinner is displayed during network requests.
+
+
+
+## Folder Structure
+```bash
+/angular-quiz-app
+|-- /src
+| |-- /app
+| | |-- /address-form
+| | | |-- address-form.component.ts
+| | | |-- address-form.component.html
+| | | |-- address-form.component.css
+| | |-- /users
+| | | |-- users.component.ts
+| | | |-- users.component.html
+| | | |-- app.component.spec.ts
+| | | |-- users.component.css
+| | |-- app.component.ts
+| | |-- app.component.html
+| | |-- app.component.css
+| | |-- /app.module.ts
+| | |-- /backend.service.ts
+| | |-- /spinner-interceptor.service.ts
+|-- angular.json
+|-- package.json
+|-- README.md
