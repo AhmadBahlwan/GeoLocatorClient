@@ -28,7 +28,7 @@ Before you begin, ensure you have the following prerequisites installed on your 
 1. Clone the repository:
 
    ```bash
-   https://github.com/AhmadBahlwan/GeoLocatorClient.git
+   git clone https://github.com/AhmadBahlwan/GeoLocatorClient.git
 
 
 2. Navigate to the project directory:
