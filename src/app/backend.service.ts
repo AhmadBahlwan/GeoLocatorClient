@@ -8,14 +8,15 @@ import { throwError } from 'rxjs';
 })
 export class BackendService {
 
+  backendUrl='http://localhost:8080/geolocation/api/v1/submit-address';
+
   constructor(private http: HttpClient) { }
 
   sendAddressData(address: string, email: string) {
     const data = { address: address, email: email };
-    return this.http.post<any>('http://localhost:8080/geolocation/api/v1/submit-address', data)
+    return this.http.post<any>(this.backendUrl, data)
       .pipe(
         catchError(error => {
-          // Handle error
           console.error('Error:', error);
           return throwError(error);
         })

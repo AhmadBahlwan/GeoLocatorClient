@@ -1,4 +1,16 @@
-/* address-form.component.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+}
 
 form {
     max-width: 400px;
@@ -56,11 +68,20 @@ form {
 }
 
 .form-container {
-  margin-bottom: 20px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.response-container {
+.response-container,
+.error-message {
   margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
