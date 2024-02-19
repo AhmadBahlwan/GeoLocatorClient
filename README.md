@@ -57,6 +57,14 @@ Before you begin, ensure you have the following prerequisites installed on your 
 
 
 
+## Deployment
+<li>AWS S3</li>
+
+## You can try it on this link
+- http://geolocator-frontend.s3-website.eu-north-1.amazonaws.com
+
+
+
 ## Folder Structure
 ```bash
 /angular-quiz-app
